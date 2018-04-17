@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ZakkWilde/exe3_roldanas_node/issues"
   },
-  "homepage": "https://github.com/ZakkWilde/exe3_roldanas_node#readme"
+  "homepage": "https://github.com/ZakkWilde/exe3_roldanas_node#readme",
+  "dependencies": {
+    "ejs": "^2.5.8",
+    "express": "^4.16.3"
+  }
 }
