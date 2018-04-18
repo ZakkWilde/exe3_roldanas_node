@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ZakkWilde/exe3_roldanas_node#readme",
   "dependencies": {
     "ejs": "^2.5.8",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
   }
 }

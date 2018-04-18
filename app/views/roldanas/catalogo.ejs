@@ -18,22 +18,29 @@
             <td>ALTURA</td>
             <td>PESO</td>
         </tr>
-        <tr>
-            <td>Mari Danada</td>
-            <td>19/08/2000</td>
-            <td>Caucasiana</td>
-            <td>200</td>
-            <td>2.03</td>
-            <td>88kg</td>
-        </tr>
-        <tr>
-            <td>Lori Souza</td>
-            <td>22/07/1956</td>
-            <td>Preta</td>
-            <td>35</td>
-            <td>1.45</td>
-            <td>45kg</td>
-        </tr>
+
+        <% for(var i=0; i<resultsHTML.length;i++){ %>
+            <tr>
+                <td>
+                    <%=resultsHTML[i].nomeFantasia%>
+                </td>
+                <td>
+                    <%=resultsHTML[i].dataFabricacao%>
+                </td>
+                <td>
+                    <%=resultsHTML[i].cor%>
+                </td>
+                <td>
+                    <%=resultsHTML[i].altura%>
+                </td>
+                <td>
+                    <%=resultsHTML[i].peso%>
+                </td>
+                <td>
+                    <%=resultsHTML[i].preco%>
+                </td>
+            </tr>
+            <%}%>
     </table>
 
 </body>
