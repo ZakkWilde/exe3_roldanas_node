@@ -1,4 +1,4 @@
-// var app = require('./config/express')();
+// var app = require('./config/express')(); - esse tbm funciona
 var express = require('./config/express');
 var app = express();
 
