@@ -56,6 +56,70 @@
         </ul>
     </form>
 
+    <form method="post" action="/cadastro" >
+        <div>
+            <h2>Deleção de Roldanas</h2>
+            <p>Simples Deleção de Roldanas.</p>
+        </div>
+        <ul>
+            <li id="li_1">
+                <label class="description" for="nomeFantasia">Nome Fantasia </label>
+                <div>
+                    <input id="nomeFantasia" name="nomeFantasia" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <input type="submit" name="delete" value='Delete' 
+                onClick="return confirm('Are you sure you want to delete?')" />
+                <input type="hidden" name="_method" value="DELETE" />
+        </ul>
+    </form>
+
+    <form method="post" action="/cadastro" >
+        <div>
+            <h2>Atualização de Roldanas</h2>
+            <p>Simples atualização de Roldanas.</p>
+        </div>
+        <ul>
+            <li id="li_1">
+                <label class="description" for="nomeFantasia">Nome Fantasia </label>
+                <div>
+                    <input id="nomeFantasia" name="nomeFantasia" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_2">
+                <label class="description" for="dataFabricacao">Data Fabricação </label>
+                <div>
+                    <input id="dataFabricacao" name="dataFabricacao" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_3">
+                <label class="description" for="cor">Cor </label>
+                <div>
+                    <input id="cor" name="cor" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_4">
+                <label class="description" for="altura">Altura </label>
+                <div>
+                    <input id="altura" name="altura" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <li id="li_5">
+                    <label class="description" for="preco">Preço </label>
+                    <div>
+                        <input id="preco" name="preco" class="element text medium" type="text" maxlength="255" value="" />
+                    </div>
+                </li>
+            <li id="li_6">
+                <label class="description" for="peso">Peso </label>
+                <div>
+                    <input id="peso" name="peso" class="element text medium" type="text" maxlength="255" value="" />
+                </div>
+            </li>
+            <input type="hidden" name="_method" value="PUT" />
+        </ul>
+    </form>
+
 </body>
 
 </html>
